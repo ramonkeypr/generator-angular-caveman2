@@ -6,11 +6,11 @@ Caveman2 is a Common Lisp-based micro-framework.  For AngularJS integration with
 
 ## Installation
 
-Install [Git](http://git-scm.com), [node.js](http://nodejs.org), a Common Lisp implementation (such as [SBCL](http://www.sbcl.org/)), [QuickLisp](http://www.quicklisp.org/) and [Shelly](http://shlyfile.org/).  When choosing the Postmodern ORM, also install [PostgreSQL](hhttp://www.postgresql.org/).
+Install [Git](http://git-scm.com), [node.js<=v6.10.2](http://nodejs.org), a Common Lisp implementation (such as [SBCL](http://www.sbcl.org/)), [QuickLisp](http://www.quicklisp.org/) and [Shelly](http://shlyfile.org/).  When choosing the Postmodern ORM, also install [PostgreSQL](hhttp://www.postgresql.org/).
 
 Install Yeoman:
 
-    npm install -g yo
+    npm install -g yo@2.0.0 bower@0.9.0 grunt-cli@0.1.7
 
 Install the Angular-Caveman2 generator:
 
